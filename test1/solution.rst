@@ -12,3 +12,7 @@ Run the above problem like::
 
 We made one more change in this example.
 
+New title
+=========
+
+Now we add this for a commit exercise.
