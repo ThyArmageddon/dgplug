@@ -21,7 +21,9 @@ The python script can be found at the following link_.
 Code and Explanation
 --------------------
 
-The code is shown below with comments to explain each part of it::
+The code is shown below with comments to explain each part of it
+
+.. code:: python
 
         #!/usr/bin/env python
         """
