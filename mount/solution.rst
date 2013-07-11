@@ -5,7 +5,7 @@ The assignment was to write a python script that imitates the mount command that
 
         $ mount
 
-The python script wrote is called, conveniently, *python.py* and runs using::
+The python script wrote is called, conveniently, *mount.py* and runs using::
 
         $ python mount.py
 
@@ -13,7 +13,7 @@ or if made *executable*::
 
         $ ./mount.py
 
-The python script can be found at the following link_ .
+The python script can be found at the following link_.
 
 .. _link: https://raw.github.com/ThyArmageddon/dgplug/master/mount/mount.py
 
