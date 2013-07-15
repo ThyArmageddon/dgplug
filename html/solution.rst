@@ -1,0 +1,45 @@
+HTML Assignment
+---------------
+
+You can find the original link here_.
+
+.. code:: html
+
+        <!DOCTYPE html>
+        <head>
+                <title> Resume </title>
+        </head>
+        <body>
+                <h1> Resume </h1>
+                <div id='information'>
+                        <h2> My Name </h2>
+                        <p> email@address.com </p>
+                        <p> 100 Address St</p>
+                        <p> Town, State 01234 </p>
+                        <p> (100) 200-5000 </p>
+                </div>
+                <div id='education'>
+                        <h2> Education </h2>
+                        <p> University Education and whatnot </p>
+                </div>
+                <div id='technical-skills'>
+                        <h2> Technical Skills </h2>
+                        <h3> Languages </h3>
+                        <p> Arabic, English and French </p>
+                        <h3>Programming languages</h3>
+                        <p>all the programming languages I know</p>
+                </div>
+                <div id='work-experience'>
+                        <h2> Work Experience </h2>
+                        <h3> First Job </h3>
+                        <p> what did I do on that job </p>
+                        <p> more stuff </p>
+                        <p> even more stuff </p>
+                        <h3> Second Job </h3>
+                        <p> what did I do on that job as well </p>
+                        <p> more stuff </p>
+                </div>
+        </body>
+        </html>
+
+.. _here: https://raw.github.com/ThyArmageddon/dgplug/master/html/resume.html
