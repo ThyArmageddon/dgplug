@@ -31,13 +31,48 @@ You can find the original link here_.
                 </div>
                 <div id='work-experience'>
                         <h2> Work Experience </h2>
-                        <h3> First Job </h3>
-                        <p> what did I do on that job </p>
-                        <p> more stuff </p>
-                        <p> even more stuff </p>
-                        <h3> Second Job </h3>
-                        <p> what did I do on that job as well </p>
-                        <p> more stuff </p>
+                        <dl>
+                                <dt>
+                                        <h3> First Job </h3>
+                                </dt>
+                                <dd>
+                                        <p> what did I do on that job </p>
+                                </dd>
+                                <dd>
+                                        <p> more stuff </p>
+                                </dd>
+                                <dd>
+                                        <p> even more stuff </p>
+                                </dd>
+                        </dl>
+                        <dt>
+                                <h3> Second Job </h3>
+                        </dt>
+                        <dd>
+                                <p> what did I do on that job as well </p>
+                        </dd>
+                        <dd>
+                                <p> more stuff </p>
+                        </dd>
+                </div>
+                <div id='table'>
+                        <h2> Table </h2>
+                        <p> This table is just a proof of conception. </p>
+                        <table border='1'>
+                                <tr>
+                                        <th> Table Header 1 </th>
+                                        <th> Table Header 2 </th>
+                                </tr>
+                                <tr>
+                                        <td> First Box </td>
+                                        <td> Second Box </td>
+                                </tr>
+                                <tr>
+                                        <td> Third Box </td>
+                                        <td> Fourth Box </td>
+                                </tr>
+                        </table>
+                        <p> You can find my projects on <a href='https://github.com/ThyArmageddon/dgplug' target='blank'>Github</a>. </p>
                 </div>
         </body>
         </html>
