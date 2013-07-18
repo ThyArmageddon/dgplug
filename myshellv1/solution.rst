@@ -27,7 +27,7 @@ YahooAPI.py
 
         """
 
-        import urllib2
+        import requests
 
 
         class YFinance(object):
@@ -60,8 +60,8 @@ YahooAPI.py
                 if we can't connect we will return -1
                 """
                 try:
-                    fobj = urllib2.urlopen(self._link)
-                    data = fobj.read()
+                    fobj = requests.get(self._link)
+                    data = fobj.text
                     value = float(data)
                     fobj.close()
                     if value == 0.0:
@@ -81,6 +81,7 @@ YahooAPI.py
                 link = "http://download.finance.yahoo.com/d/quotes.csv?s=%s&f=l1" \
                     % ticker
                 self._link = link
+
 
 sharevalue.py
 ~~~~~~~~~~~~~
