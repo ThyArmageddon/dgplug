@@ -9,7 +9,7 @@ and will output the correct value when value is called
 
 """
 
-import urllib2
+import requests
 
 
 class YFinance(object):
@@ -42,8 +42,8 @@ class YFinance(object):
         if we can't connect we will return -1
         """
         try:
-            fobj = urllib2.urlopen(self._link)
-            data = fobj.read()
+            fobj = requests.get(self._link)
+            data = fobj.text
             value = float(data)
             fobj.close()
             if value == 0.0:
