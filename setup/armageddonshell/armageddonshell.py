@@ -35,7 +35,9 @@ class Application(Cmd):
         """
         print Stock(line)
 
-
-if __name__ == '__main__':
+def main():
     app = Application()
     app.cmdloop()
+
+if __name__ == '__main__':
+    main()

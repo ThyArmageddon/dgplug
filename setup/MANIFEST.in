@@ -1,0 +1,2 @@
+include myshell/*.py
+include myshell/README.rst
