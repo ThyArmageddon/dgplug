@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='armageddonshell',
-    version=0.3,
+    version="0.3.1",
     description="Armageddon's Shell",
     long_description="Armageddon's Shell is a Shell like assignment",
     platforms=["Linux"],

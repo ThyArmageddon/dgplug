@@ -1,2 +1,2 @@
-include myshell/*.py
-include myshell/README.rst
+include armageddonshell/*.py
+include armageddonshell/README.rst
