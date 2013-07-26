@@ -3,7 +3,7 @@ from cmd2 import Cmd
 from getpass import getuser
 from sharevalue import Stock
 
-__version__ = '0.3.1'
+__version__ = '0.3.2'
 
 
 class Application(Cmd):
